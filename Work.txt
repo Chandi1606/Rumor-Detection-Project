@@ -1,0 +1,28 @@
+Multi modal Meta Multi Task Learning for Social Media Rumor Detection
+
+
+
+
+
+
+Members
+
+RID	
+Posted_Date	
+Rating	
+Prediction	
+Score	
+Description
+
+
+CREATE TABLE `dsdetails` (
+  `id` int(11) NOT NULL auto_increment,
+  `RID` text,
+  `Posted_Date` text,
+  `Rating` text,
+  `Prediction` text,
+  `Score` text,
+  `Description` text,
+`hcode` text,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
